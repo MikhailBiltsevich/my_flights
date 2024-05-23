@@ -1,0 +1,41 @@
+name: my_flights
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  dio: ^5.4.3+1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  flutter_svg: ^2.0.10+1
+  json_annotation: ^4.9.0
+  retrofit: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  retrofit_generator: '>=7.0.0 <8.0.0'
+  build_runner: '>=2.3.0 <4.0.0'
+  json_serializable: ^6.6.2
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/icons/
+    - assets/images/
+  fonts:
+    - family: SF-Pro-Display
+      fonts:
+        - asset: fonts/SF-Pro-Display-Regular.otf
+          weight: 400
+        - asset: fonts/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: fonts/SF-Pro-Display-Semibold.otf
+          weight: 600
+        - asset: fonts/SF-Pro-Display-Bold.otf
+          weight: 700
